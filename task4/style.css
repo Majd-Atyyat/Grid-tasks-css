@@ -1,0 +1,73 @@
+body{
+    background-color:#a8bf7e;
+}
+.container{
+display: grid;
+grid-template-columns: repeat(4, auto);
+grid-template-rows: repeat(5,auto);
+width: 500px;
+height: 550px;
+margin: auto;
+margin-top: 30px;
+background-color:#a0d0ea;
+border-radius: 10px;
+grid-gap:10px;
+padding: 25px;
+
+}
+.box{
+box-shadow: 0px 5px #80a6bb;
+text-align: center;
+}
+p{
+font-size: 30px;
+
+}
+.screen{
+grid-row-start:1;
+grid-row-end:2;
+grid-column-start:1 ;
+grid-column-end: 5;
+background-color: #f1fbeb;
+margin-bottom: 20px;
+height: 80px;
+}
+.no{
+background-color:#efefef ;
+
+}
+.sympol{
+background-color:#efff93 ;
+}
+.clear{
+background-color:
+#fd9fa9 ;
+grid-column: 1;
+grid-row: 5;}
+
+
+.zero{
+grid-column: 2;
+grid-row: 5;
+}
+.equel{
+order: 0;
+}
+.plus{
+grid-column: 4;
+grid-row: 2;
+}
+.minus{
+grid-column: 4;
+grid-row: 3;
+
+}
+.star{
+grid-column: 4;
+grid-row: 4;
+}
+.slash{
+grid-column: 4;
+grid-row: 5;
+}
+

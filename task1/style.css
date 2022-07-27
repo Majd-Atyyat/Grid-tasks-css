@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+     grid-template-columns: repeat(18 , 100px);
+grid-template-columns: auto  auto auto;
+grid-template-rows: 60px auto 100px;
+width: 600px;
+height: 500px;
+grid-gap:10px;}
+
+
+.black{
+grid-row-start:1;
+grid-row-end:2;
+grid-column-start:1 ;
+grid-column-end: 4;
+background-color: black;
+}
+.orange{
+    grid-row-start:2;
+grid-row-end:3;
+grid-column-start:1 ;
+grid-column-end: 3;
+background-color: orange;
+}
+.green{
+    grid-row-start:2;
+grid-row-end:3;
+grid-column-start:3 ;
+grid-column-end: 4;
+background-color: green;
+}
+.blue{
+    grid-row-start:3;
+grid-row-end:4;
+grid-column-start:1 ;
+grid-column-end: 4;
+background-color: blue;
+}
